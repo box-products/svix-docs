@@ -31,7 +31,7 @@ module.exports = {
     "receiving/introduction",
     {
       "Using the App Portal": [
-        "receiving/using-app-portal/event-catalog",
+        // "receiving/using-app-portal/event-catalog",
         "receiving/using-app-portal/adding-endpoints",
         "receiving/using-app-portal/testing-events",
         "receiving/using-app-portal/filtering-logs",
@@ -45,17 +45,17 @@ module.exports = {
         "receiving/verifying-payloads/how-manual",
         "receiving/source-ips",
       ],
-      "Additional links": [
-        {
-          type: "ref",
-          id: "introduction",
-          label: "Sending Webhooks",
-        },
-        {
-          type: "ref",
-          id: "get-help",
-        },
-      ],
+      // "Additional links": [
+      //   {
+      //     type: "ref",
+      //     id: "introduction",
+      //     label: "Sending Webhooks",
+      //   },
+      //   {
+      //     type: "ref",
+      //     id: "get-help",
+      //   },
+      // ],
     },
   ],
 };

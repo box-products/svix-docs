@@ -1,7 +1,7 @@
 module.exports = {
-  title: "Svix Docs",
-  tagline: "Webhooks as a service",
-  url: "https://docs.svix.com",
+  title: "SALT Webhook Docs",
+  tagline: "Digital insurance application",
+  url: "https://saltinsure.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -9,47 +9,26 @@ module.exports = {
   themeConfig: {
     navbar: {
       logo: {
-        alt: "Svix logo",
-        src: "img/brand.svg",
-        srcDark: "img/brand.white.svg",
+        alt: "SALT logo",
+        src: "img/logo-color-dark.svg",
+        srcDark: "img/logo-color-light.svg",
       },
       items: [
         {
-          to: "https://www.svix.com",
+          to: "https://www.saltinsure.com",
           label: "Website",
           position: "left",
         },
         {
-          to: "https://api.svix.com/docs",
-          label: "API Reference",
-          position: "left",
-        },
-        {
-          to: "https://docs.svix.com/receiving/introduction/",
-          label: "Consuming Webhooks",
-          position: "left",
-        },
-        {
-          to: "https://www.svix.com/slack/",
-          label: "Community",
-          position: "left",
-        },
-        {
-          to: "/get-help",
+          to: "https://support.saltinsure.com",
           label: "Support",
           position: "left",
-        },
-        {
-          href: 'https://github.com/svix/svix-webhooks',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-          position: 'right',
-        },
+        }
       ],
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © Svix`,
+      copyright: `Copyright © SALT Insure, Inc`,
     },
     prism: {
       additionalLanguages: ["ruby", "php", "java", "groovy", "csharp", "kotlin"],
@@ -62,17 +41,16 @@ module.exports = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/svix/svix-docs/edit/main/",
-          sidebarCollapsible: false,
+          sidebarCollapsible: true,
         },
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        gtag: {
-          trackingID: "UA-219524931-1",
-          anonymizeIP: true,
-        },
+        // gtag: {
+        //   trackingID: "UA-219524931-1",
+        //   anonymizeIP: true,
+        // },
       },
     ],
   ],
